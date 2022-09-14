@@ -1,0 +1,1 @@
+"./Client_PIXY.obj" "./inc_SMCLK.obj" "./motor_controller.obj" "./pixy.obj" "../lnk_msp430f5529.cmd" -llibmath.a -llibc.a 

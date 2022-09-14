@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;MotorController/MSP_DAC.c&apos;" deleteContents="false" description="Delete resource &apos;MotorController/MSP_DAC.c&apos;" element1="/MotorController/MSP_DAC.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1552533495023"/>&#x0A;<refactoring comment="Delete resource &apos;MotorController/MSP_DAC.h&apos;" deleteContents="false" description="Delete resource &apos;MotorController/MSP_DAC.h&apos;" element1="/MotorController/MSP_DAC.h" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1552533499336"/>
+</session>

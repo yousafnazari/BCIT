@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project Ultrasonic_Sensors ****
+
+"C:\\Apps\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'Ultrasonic_Sensors.out' is up to date.
+
+**** Build Finished ****

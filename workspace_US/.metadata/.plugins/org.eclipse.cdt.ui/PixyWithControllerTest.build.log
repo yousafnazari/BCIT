@@ -1,0 +1,35 @@
+
+**** Build of configuration Debug for project PixyWithControllerTest ****
+
+"C:\\Apps\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../Client_PIXY.c"
+Invoking: MSP430 Compiler
+"C:/Apps/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.4.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/Apps/ti/ccsv8/ccs_base/msp430/include" --include_path="E:/Term 4/Final Project/workspace_US/PixyWithControllerTest" --include_path="C:/Apps/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.4.LTS/include" --advice:power=all --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="Client_PIXY.d_raw"  "../Client_PIXY.c"
+"../Client_PIXY.c", line 148: warning #112-D: statement is unreachable
+"../Client_PIXY.c", line 128: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../Client_PIXY.c", line 129: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../Client_PIXY.c", line 130: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../Client_PIXY.c", line 132: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../Client_PIXY.c", line 133: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../Client_PIXY.c", line 134: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../Client_PIXY.c", line 136: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../Client_PIXY.c", line 137: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../Client_PIXY.c", line 138: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../Client_PIXY.c", line 19: remark #1535-D: (ULP 8.1) variable "rxCount" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../Client_PIXY.c", line 20: remark #1535-D: (ULP 8.1) variable "txCount" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../Client_PIXY.c", line 21: remark #1535-D: (ULP 8.1) variable "MaxCount" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+Finished building: "../Client_PIXY.c"
+ 
+Building target: "PixyWithControllerTest.out"
+Invoking: MSP430 Linker
+"C:/Apps/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.4.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 -z -m"PixyWithControllerTest.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/Apps/ti/ccsv8/ccs_base/msp430/include" -i"C:/Apps/ti/ccsv8/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/Apps/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.4.LTS/lib" -i"C:/Apps/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="PixyWithControllerTest_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "PixyWithControllerTest.out" "./Client_PIXY.obj" "./inc_SMCLK.obj" "./motor_controller.obj" "./pixy.obj" "../lnk_msp430f5529.cmd"  -llibmath.a -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "PixyWithControllerTest.out"
+ 
+
+**** Build Finished ****

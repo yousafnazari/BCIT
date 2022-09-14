@@ -1,0 +1,11 @@
+12 bit (DAC12RES = 0)
+internal Vref = 2.5V (DAC12SREF
+Vout = Vref*2 (DAC12IR = 0, DAC12OG = 1)
+straight binary (DAC12DF = 
+DAC output pins:
+	- P3.0 (DAC12OPS = 1, DAC12AMP>1)
+	- P3.1 (DAC12OPS = 1, DAC12AMP>1)
+	- P3.2 (DAC12OPS = 1, DAC12AMP>1)
+	- P3.3 (DAC12OPS = 1, DAC12AMP>1)
+timerA trigger (DAC12SELx = 2)
+right justified (
